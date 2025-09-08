@@ -130,11 +130,11 @@ h3 {
 
 .img1 {
   position: relative; 
-      display: inline-block;
+      display: block;
       margin-left: 35px;
 }
 
-grafico {
+.monitor {
   display: block; /* Rimuove spazio sotto l'immagine */
       width: 100%; /* Assicura che l'immagine sia a grandezza piena del container */
       position: relative; /* Necessario se si vuole usare z-index per l'immagine */
@@ -143,7 +143,7 @@ grafico {
 
 .testo1 {position: absolute; /* Posiziona il testo rispetto al container */
       top: 10%;  /* per portarlo verso l'alto*/
-      left: 25%; /* per muovere a sinistra o a destra*/
+      left: 5%; /* per muovere a sinistra o a destra*/
       transform: translate(-50%, -50%); /* Centra il testo */
       color: white; 
       font-size: 50 px; 
@@ -165,7 +165,7 @@ grafico {
 
 .testo2 {position: absolute; /* Posiziona il testo rispetto al container */
       top: 10%;  /* per portarlo verso l'alto*/
-      left: 25%; /* per muovere a sinistra o a destra*/
+      left: 35%; /* per muovere a sinistra o a destra*/
       transform: translate(-50%, -50%); /* Centra il testo */
       color: white; 
       font-size: 50 px; 
