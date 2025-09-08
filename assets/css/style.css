@@ -95,3 +95,26 @@ p {
 mark {
   background-color: yellow;
 }
+
+/* TABELLA */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th {
+  background-color: #4da3ff;
+  color: white;
+  padding: 8px;
+  text-align: left;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.riga-azzurra {
+  background-color: #cfe9ff;
+}
