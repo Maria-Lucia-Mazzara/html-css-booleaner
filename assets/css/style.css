@@ -1,5 +1,42 @@
-/* Sezione banner */
 
-.header {
-    background-color: #4ea0ff; 
-    
+body {
+  margin: 0;
+  padding: 0;
+}
+/*rimozione margini*/
+
+
+.sfondo {
+  background-color: #4da3ff; /*tonalità blu presa da penpot*/
+  height: 60px;            /* altezza della fascia */
+  align-items: center;      /* centra verticalmente */
+  position: relative;       /* per posizionare il logo */
+  overflow: hidden;         /*nasconde quello che esce fuori dal contenitore*/
+}
+
+/* Contenitore che racchiude pattern + logo */
+.contenitore {
+    background-image: 
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
+
+
+.pattern {
+  position: absolute;   /* messo come sfondo dietro al logo */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;    /* adatta l’immagine */
+  z-index: 0;           /* resta dietro al logo */
+}
+
+
+.logo {
+  position: fixed; 
+  height: 40px;  /* per misurare l'altezza verticale*/
+  margin-top: 5px; /* margine sopra */
+  margin-left: 5px; /* margine sinistro */
+  z-index: 1;
