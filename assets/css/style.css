@@ -118,3 +118,61 @@ td {
 .riga-azzurra {
   background-color: #cfe9ff;
 }
+
+h3 {
+  margin-top: 30px;
+}
+
+.articoli {
+    color: #898989;
+    margin-left: 35px;
+}
+
+.img1 {
+  position: relative; 
+      display: inline-block;
+      margin-left: 35px;
+}
+
+grafico {
+  display: block; /* Rimuove spazio sotto l'immagine */
+      width: 100%; /* Assicura che l'immagine sia a grandezza piena del container */
+      position: relative; /* Necessario se si vuole usare z-index per l'immagine */
+      z-index: 0; /* Assicura che l'immagine sia dietro altri elementi */
+}
+
+.testo1 {position: absolute; /* Posiziona il testo rispetto al container */
+      top: 10%;  /* per portarlo verso l'alto*/
+      left: 25%; /* per muovere a sinistra o a destra*/
+      transform: translate(-50%, -50%); /* Centra il testo */
+      color: white; 
+      font-size: 50 px; 
+      font-weight: bold; 
+      text-align: center; /* Centra il testo all'interno del suo div */
+      z-index: 1; /* Assicura che il testo sia sopra l'immagine */
+      padding: 10px; /* Aggiunge spazio intorno al testo */}
+
+      .img2 {
+  position: relative; 
+      display: inline-block;
+      margin-left: 35px;
+}
+
+.grafico {
+  position: relative; /* Necessario se si vuole usare z-index per l'immagine */
+      z-index: 0; /* Assicura che l'immagine sia dietro altri elementi */
+}
+
+.testo2 {position: absolute; /* Posiziona il testo rispetto al container */
+      top: 10%;  /* per portarlo verso l'alto*/
+      left: 25%; /* per muovere a sinistra o a destra*/
+      transform: translate(-50%, -50%); /* Centra il testo */
+      color: white; 
+      font-size: 50 px; 
+      font-weight: bold; 
+      text-align: center; /* Centra il testo all'interno del suo div */
+      z-index: 1; /* Assicura che il testo sia sopra l'immagine */
+      padding: 10px; /* Aggiunge spazio intorno al testo */}
+      
+      
+      
