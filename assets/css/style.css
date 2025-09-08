@@ -35,8 +35,52 @@ body {
 
 
 .logo {
-  position: fixed; 
-  height: 40px;  /* per misurare l'altezza verticale*/
-  margin-top: 5px; /* margine sopra */
-  margin-left: 5px; /* margine sinistro */
+  position: absolute; 
+  height: 30px;  /* per misurare l'altezza verticale*/
+  margin-top: 20px; /* margine sopra */
+  margin-left: 50px; /* margine sinistro */
   z-index: 1;
+}
+
+.contenuto {
+  width: 70%;
+  margin: 20px auto;
+}
+
+h1 {
+  font-size: 70px;
+  margin: 3px;
+}
+
+.autore {
+  color: #555;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+
+}
+
+.blue {
+  color: #4da3ff;
+}
+
+.foto1 {
+  width: 70%;
+  margin: 15px 0;
+}
+.foto2 {
+  width: 50%;
+  margin: 15px 0;
+}
+
+.descrizione1 {
+  font-size: 12px;
+  color: #444;
+}
+
+.descrizione2 {
+  font-size: 12px;
+  color: #444;
+  width: 50%;
+  margin: 0;
+}
